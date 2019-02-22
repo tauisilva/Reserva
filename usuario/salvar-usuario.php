@@ -10,7 +10,7 @@
 
     switch ($_REQUEST["acao"]) {
 		case 'cadastrar':
-			$sql = "insert into funcionario values (default, '{$nome}', '{$usuario}', '{$cpf}', '{$cidade}', '{$estado}', '{$email}','{$senha}')";
+			$sql = "insert into funcionario values (default, '{$nome}', '{$usuario}', '{$cpf}', '{$cidade}', '{$estado}', '{$email}',md5('{$senha}'))";
 
 			$res = $conn->query($sql) or die($conn->error);
 

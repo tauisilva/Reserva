@@ -1,3 +1,10 @@
+<?php 
+
+session_start();
+include("logon/verificaLogon.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -51,6 +58,9 @@
                 </a>
               </div>
             </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="logon/logon.php" style="color: white; font-size: 19px">Sair</a></li>
         </ul>
       </div>
     </nav>

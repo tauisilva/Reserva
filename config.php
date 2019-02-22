@@ -1,16 +1,11 @@
 <?php
 	//conexão com o banco de dados
-	$host = "localhost";
-	$user = "root";
-	$pass = "";
-	$db   = "reserva";
-
-	$conn = new mysqli($host,$user,$pass,$db) or die($conn->error);
+	include('conexao.php');
 
 	$conn->query("SET NAMES 'utf8'");
-	$conn->query('SET character_set_connection=utf8');
-	$conn->query('SET character_set_client=utf8');
-	$conn->query('SET character_set_results=utf8');
+	$conn->query("SET character_set_connection=utf8");
+	$conn->query("SET character_set_client=utf8");
+	$conn->query("SET character_set_results=utf8");
 	
 	switch (@$_REQUEST["page"]) {
 		case 'insert-sala':
