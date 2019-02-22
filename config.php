@@ -11,7 +11,7 @@
 	$conn->query('SET character_set_connection=utf8');
 	$conn->query('SET character_set_client=utf8');
 	$conn->query('SET character_set_results=utf8');
-
+	
 	switch (@$_REQUEST["page"]) {
 		case 'insert-sala':
 			include("sala/inserir-sala.php");
