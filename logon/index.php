@@ -31,7 +31,7 @@ session_start();
                     ?>
                     
                     <div class="notification is-danger">
-                    <p>ERRO: Usuário ou senha inválidos.</p>
+                    <p>Usuário ou senha inválidos.</p>
                     </div>
                     
                     <?php 
