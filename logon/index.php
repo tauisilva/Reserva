@@ -54,7 +54,9 @@ session_start();
                                 </div>
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+                            <br>
                         </form>
+                        <a class="button is-block is-link is-large is-fullwidth" href="cadastrar/usuario.php" role="button">Não é usuário ainda? Clique aqui para cadastrar</a>
                     </div>
                 </div>
             </div>
