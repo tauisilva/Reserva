@@ -2,7 +2,7 @@
 <br>
 	<form action="index.php?page=sal-usuario" method="POST">
 	<input type="hidden" name="acao" value="cadastrar">
-		<div class="form-row">
+	<div class="form-row">
 			<div class="form-group col-md-6">
 				<label for="nome_usuario">Nome completo</label>
 				<input type="text" class="form-control" id="nome_usuario" name="nome_usuario" required placeholder="Nome completo">
@@ -28,7 +28,7 @@
 		<div class="form-row">
 			<div class="form-group col-md-6">
 				<label for="email_usuario">E-mail</label>
-				<input type="email" class="form-control" id="email_usuario" name="email_usuario" required placeholder="Ex: email@exemplo.com">
+				
 			</div>
 			<div class="form-group col-md-6">
 				<label for="senha_usuario">Senha</label>

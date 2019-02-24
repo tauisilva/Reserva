@@ -11,9 +11,6 @@
 		case 'insert-sala':
 			include("sala/inserir-sala.php");
 			break;
-		case 'insert-usuario':
-			include("usuario/inserir-usuario.php");
-			break;
 
 		case 'lis-sala':
 			include("sala/listar-sala.php");
@@ -32,10 +29,6 @@
 			break;
 		case 'sal-sala':
 			include("sala/salvar-sala.php");
-			break;
-
-		case 'sal-usuario':
-			include("usuario/salvar-usuario.php");
 			break;
 
 		case 'lis-usuario':
