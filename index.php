@@ -40,9 +40,6 @@ include("logon/verificaLogon.php");
                 <a class="dropdown-item" href="index.php?page=insert-sala">
                   <i class="far fa-building" style="color: blue;"></i> Sala
                 </a>
-                <a class="dropdown-item" href="index.php?page=insert-usuario">
-                  <i class="fas fa-user" style="color: blue;"></i> Usuário
-                </a>
               </div>  
             </li>
             <li class="nav-item dropdown">
