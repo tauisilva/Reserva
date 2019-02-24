@@ -29,9 +29,6 @@ include("logon/verificaLogon.php");
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="index.php">Principal</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastrar
@@ -57,7 +54,11 @@ include("logon/verificaLogon.php");
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="logon/logon.php" style="color: white; font-size: 19px">Sair</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="logon/logon.php" style="color: white; font-size: 19px">
+              Sair
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

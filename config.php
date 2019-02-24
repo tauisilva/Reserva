@@ -32,7 +32,7 @@
 			break;
 
 		case 'lis-usuario':
-			include(usuario/listar-usuario.php);
+			include("usuario/listar-usuario.php");
 
 		default:
 			include("dashboard.php");
