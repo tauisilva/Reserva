@@ -55,7 +55,7 @@ include("logon/verificaLogon.php");
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <a class="nav-link" href="logon/logon.php" style="color: white; font-size: 19px">
+            <a class="nav-link" href="logon/logout.php" style="color: white; font-size: 19px">
               Sair
             </a>
           </li>
